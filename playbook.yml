@@ -1,0 +1,8 @@
+
+---
+- name: Test
+  hosts: all
+  remote_user: jenkins
+  tasks:
+    - name: tester user
+      shell: ls /home

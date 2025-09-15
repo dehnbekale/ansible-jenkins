@@ -1,0 +1,11 @@
+---
+
+all:
+  hosts:
+    bekmuss:
+       ansible_host: bek-muss.fr
+       ansible_user: jenkins
+
+  vars:
+    ansible_connection: ssh
+    ansible_post: 22
