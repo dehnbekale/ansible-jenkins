@@ -18,6 +18,6 @@ jenkins ALL:ALL NOPASSWD: ALL
 
 5/Copier la clé ssh à la machine distante
 
-ssh-copy-id -i /home/jenkins/*.pub -p 22 jenkins@bek-muss.fr
+ssh-copy-id -i /home/jenkins/*.pub -p 22 jenkins@bek-******.fr
 
 
