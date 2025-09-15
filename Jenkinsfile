@@ -1,5 +1,6 @@
 node{
     stage("clone") {
+       sh "rm -rf ansible-jenkins"
        sh "git clone https://github.com/dehnbekale/ansible-jenkins.git"
     }
     stage("playbook"){
