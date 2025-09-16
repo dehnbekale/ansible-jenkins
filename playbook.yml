@@ -2,7 +2,7 @@
 ---
 - name: Test
   hosts: all
-  remote_user: jenkins
+  remote_user: dehn
   tasks:
     - name: tester user
       shell: ls /home

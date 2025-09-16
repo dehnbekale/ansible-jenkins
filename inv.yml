@@ -4,7 +4,7 @@ all:
   hosts:
     bekmuss:
        ansible_host: bek-muss.fr
-       ansible_user: jenkins
+       ansible_user: dehn
 
   vars:
     ansible_connection: ssh
